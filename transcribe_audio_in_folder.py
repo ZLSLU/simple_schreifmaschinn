@@ -4,7 +4,7 @@ import torch
 import whisper_timestamped as whisper
 from pathlib import Path
 
-# === SETTINGS ===
+
 AUDIO_DIR = "audio"
 MODEL_PATH = "pytorch_model.bin"
 CONFIG_PATH = "config.json"
