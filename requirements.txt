@@ -1,0 +1,4 @@
+torch
+torchaudio
+whisper
+whisper_timestamped
