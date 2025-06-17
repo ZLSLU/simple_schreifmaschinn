@@ -3,3 +3,4 @@ torchaudio
 whisper
 whisper_timestamped
 numpy
+soundfile
