@@ -1,18 +1,18 @@
-# Schreifmaschinn-Lite (Command Line Tool)
+# Schreifmaschinn-Lite (Command Line Tool) fir Linux/MacOS
 
-Dëst Tool benotzt de ZLS Whisper-Modell fir d'Transkriptioun vu lëtzebuergeschen Audiodonnéeën. Hei drënner fënnt een d'Schrëtt fir d'Installatioun an d'Benotzung.
+Dësen Tool benotzt den ZLS Whisper-Modell fir d'Transkriptioun vu lëtzebuergeschen Audiodonnéeën. Heidrënner fënnt een d'Schrëtt fir d'Installatioun an d'Benotzung.
 
 ---
 
 ## Installatioun
 
 1. **Modell eroflueden**  
-   Luet déi zwou folgend Fichieren vum HuggingFace-Repository erof:  
+   Luet déi follgend zwee Fichiere vum HuggingFace-Repository erof:  
    [`pytorch_model.bin`](https://huggingface.co/ZLSCompLing/whisper_large_lb_ZLS_v4_38h/resolve/main/pytorch_model.bin)  
    [`config.json`](https://huggingface.co/ZLSCompLing/whisper_large_lb_ZLS_v4_38h/resolve/main/config.json)  
 
 2. **Audio-Dossier uleeën**  
-   Lee an deem selwechte Dossier en neie Fichier mam Numm un:  
+   Leet an deem selwechten Dossier en neie Fichier mam Numm un:  
    ```
    audio
    ```
@@ -26,7 +26,7 @@ Dëst Tool benotzt de ZLS Whisper-Modell fir d'Transkriptioun vu lëtzebuergesch
    ```
 
 4. **Audiodonnéeën bäisetzen**  
-   Setz all d'Audiodonnéeën déi Dir wëllt transkribéieren an den `audio`-Dossier.
+   Setzt all d'Audiodonnéeën, déi Dir wëllt transkribéieren, an den `audio`-Dossier bäi.
 
 6. **Transkriptioun starten**  
 
@@ -34,4 +34,4 @@ Dëst Tool benotzt de ZLS Whisper-Modell fir d'Transkriptioun vu lëtzebuergesch
    python3 transcribe_audio_in_folder.py
    ```
    
-   Fir all Audiodonnéeën gëtt e Text-Fichier mam selwechten Numm generéiert, deen d'Transkriptioun enthält.
+   Fir all Audiodonnéeë gëtt en Text-Fichier mam selwechten Numm generéiert, deen d'Transkriptioun enthält.
