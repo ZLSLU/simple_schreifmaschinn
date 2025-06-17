@@ -1,6 +1,6 @@
 # Schreifmaschinn-Lite (Command Line Tool) fir Linux/MacOS
 
-Dësen Tool benotzt den ZLS Whisper-Modell fir d'Transkriptioun vu lëtzebuergeschen Audiodonnéeën. Heidrënner fënnt een d'Schrëtt fir d'Installatioun an d'Benotzung.
+Dësen Tool benotzt den ZLS Whisper-Modell fir d'Transkriptioun vu lëtzebuergeschen Audiodonnéeën. Heidrënner fënnt een d'Schrëtt fir d'Installatioun an d'Benotzung op Linux/MacOS.
 
 ---
 
