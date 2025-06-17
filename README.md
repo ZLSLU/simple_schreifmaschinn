@@ -17,10 +17,12 @@ Dësen Tool benotzt den ZLS Whisper-Modell fir d'Transkriptioun vu lëtzebuerges
    audio
    ```
 
-3. **Python Virtual Environment (venv) an Dependencies installéieren**  
+3. **Python 3.10 Virtual Environment (venv) an Dependencies installéieren**  
+
+OPGEPASST: Fir de Modell kënnen ze benotzen, muss Python 3.10 benotzt ginn
 
    ```bash
-   python3 -m venv venv
+   python3.10 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
    ```
